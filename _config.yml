@@ -1,11 +1,11 @@
 # Site settings
 title: Masa's Blog
 SEOTitle: Masa的博客 | Masa's Blog
-header-img: img/post-bg-desk.jpg
+header-img: img/post-bg-rwd.jpg
 email: caozheng@nuist.edu.cn
 description: "Every failure is leading towards success."
 keyword: "CAOZ, Masa Blog, Masa的博客, caozheng, 曹政, Python, AI, CV"
-url: "http://qiubaiying.github.io"          # your host, for absolute URL
+url: "http://nuistcz.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/nuistcz/nuistcz.github.io.git" # you code repository
 
