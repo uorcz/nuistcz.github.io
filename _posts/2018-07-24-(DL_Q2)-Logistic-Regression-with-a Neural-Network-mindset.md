@@ -222,7 +222,6 @@ train_set_x = train_set_x_flatten/255.
 test_set_x = test_set_x_flatten/255.
 ```
 
-<font color='blue'>
 **What you need to remember:**
 
 Common steps for pre-processing a new dataset are:
@@ -655,7 +654,6 @@ print ("predictions = " + str(predict(w, b, X)))
 </table>
 
 
-<font color='blue'>
 **What to remember:**
 You've implemented several functions that:
 - Initialize (w,b)
@@ -917,7 +915,6 @@ print("y = " + str(np.squeeze(my_predicted_image)) + ", your algorithm predicts 
 ![png](output_53_2.png)
 
 
-<font color='blue'>
 **What to remember from this assignment:**
 1. Preprocessing the dataset is important.
 2. You implemented each function separately: initialize(), propagate(), optimize(). Then you built a model().
