@@ -2,9 +2,9 @@
 layout:     post
 title:      Python Dict 方法集合
 subtitle:   字典(Dict)数据结构
-date:       2018-07-25
+date:       2018-07-10
 author:     Masa
-header-img: img/post-bg-unix-linux.jpg
+header-img: img/post-bg-debug.png
 catalog: true
 tags:
     - Python
