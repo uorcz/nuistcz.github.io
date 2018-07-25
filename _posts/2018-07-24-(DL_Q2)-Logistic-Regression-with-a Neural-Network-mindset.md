@@ -898,17 +898,7 @@ plt.imshow(image)
 print("y = " + str(np.squeeze(my_predicted_image)) + ", your algorithm predicts a \"" + classes[int(np.squeeze(my_predicted_image)),].decode("utf-8") +  "\" picture.")
 ```
 
-    /usr/local/lib/python3.6/site-packages/ipykernel_launcher.py:7: DeprecationWarning: `imread` is deprecated!
-    `imread` is deprecated in SciPy 1.0.0.
-    Use ``matplotlib.pyplot.imread`` instead.
-      import sys
-    /usr/local/lib/python3.6/site-packages/ipykernel_launcher.py:8: DeprecationWarning: `imresize` is deprecated!
-    `imresize` is deprecated in SciPy 1.0.0, and will be removed in 1.2.0.
-    Use ``skimage.transform.resize`` instead.
-      
-
-
-    y = 0.0, your algorithm predicts a "non-cat" picture.
+    y = 1.0, your algorithm predicts a "cat" picture.
 
 
 
