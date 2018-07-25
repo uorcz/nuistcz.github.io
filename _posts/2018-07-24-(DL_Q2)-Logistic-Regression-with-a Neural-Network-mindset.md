@@ -90,7 +90,7 @@ print ("y = " + str(train_set_y[:, index]) + ", it's a '" + classes[np.squeeze(t
 
 
 
-![png](output_6_1.png)
+![png](../../../../img/output_6_1.png)
 
 
 Many software bugs in deep learning come from having matrix/vector dimensions that don't fit. If you can keep your matrix/vector dimensions straight you will go a long way toward eliminating many bugs. 
@@ -235,7 +235,7 @@ It's time to design a simple algorithm to distinguish cat images from non-cat im
 
 You will build a Logistic Regression, using a Neural Network mindset. The following Figure explains why **Logistic Regression is actually a very simple Neural Network!**
 
-<img src="images/LogReg_kiank.png" style="width:650px;height:400px;">
+<img src="../../../../img/images/LogReg_kiank.png" style="width:650px;height:400px;">
 
 **Mathematical expression of the algorithm**:
 
@@ -790,7 +790,7 @@ print ("y = " + str(test_set_y[0,index]) + ", you predicted that it is a \"" + c
 
 
 
-![png](output_44_1.png)
+![png](../../../../img/output_44_1.png)
 
 
 Let's also plot the cost function and the gradients.
@@ -862,7 +862,7 @@ plt.show()
 
 
 
-![png](output_50_1.png)
+![png](../../../../img/output_50_1.png)
 
 
 **Interpretation**: 
@@ -885,7 +885,7 @@ Congratulations on finishing this assignment. You can use your own image and see
 
 ```python
 ## START CODE HERE ## (PUT YOUR IMAGE NAME) 
-my_image = "my_test_cat.jpeg"   # change this to the name of your image file 
+my_image = "../../../../img/my_test_cat.jpeg"   # change this to the name of your image file 
 ## END CODE HERE ##
 
 # We preprocess the image to fit your algorithm.
@@ -912,7 +912,7 @@ print("y = " + str(np.squeeze(my_predicted_image)) + ", your algorithm predicts 
 
 
 
-![png](output_53_2.png)
+![png](../../../../img/output_53_2.png)
 
 
 **What to remember from this assignment:**
