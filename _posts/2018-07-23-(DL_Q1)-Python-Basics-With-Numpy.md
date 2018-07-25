@@ -1,16 +1,14 @@
 ---
 layout:     post
-title:      Python Basics With Numpy
-subtitle:   Task1 in Deep Learning Course By Andrew Ng
-date:       2018-07-05
+title:      (DL_Q1)Python Basics With Numpy
+subtitle:   DL Course Quiz 1.1
+date:       2018-07-23
 author:     Masa
 header-img: img/post-bg-unix-linux.jpg
 catalog: true
 tags:
     - Python
-    - Deep learning
-    - AI
-    - numpy
+    - DL
 ---
 # Python Basics with Numpy (optional assignment)
 
@@ -74,7 +72,7 @@ Before using np.exp(), you will use math.exp() to implement the sigmoid function
 **Reminder**:
 $sigmoid(x) = \frac{1}{1+e^{-x}}$ is sometimes also known as the logistic function. It is a non-linear function used not only in Machine Learning (Logistic Regression), but also in Deep Learning.
 
-<img src="img/Sigmoid.png" style="width:500px;height:228px;">
+<img src="../../../../img/Sigmoid.png" style="width:500px;height:228px;">
 
 To refer to a function belonging to a specific package you could call it using package_name.function(). Run the code below to see an example with math.exp().
 
@@ -307,7 +305,7 @@ Two common numpy functions used in deep learning are [np.shape](https://docs.sci
 
 For example, in computer science, an image is represented by a 3D array of shape $(length, height, depth = 3)$. However, when you read an image as the input of an algorithm you convert it to a vector of shape $(length*height*3, 1)$. In other words, you "unroll", or reshape, the 3D array into a 1D vector.
 
-<img src="img/image2vector_kiank.png" style="width:500px;height:300;">
+<img src="../../../../img/image2vector_kiank.png" style="width:500px;height:300;">
 
 **Exercise**: Implement `image2vector()` that takes an input of shape (length, height, 3) and returns a vector of shape (length\*height\*3, 1). For example, if you would like to reshape an array v of shape (a, b, c) into a vector of shape (a*b,c) you would do:
 ``` python
