@@ -7,7 +7,6 @@ author:     Masa
 header-img: img/post-bg-unix-linux.jpg
 catalog: true
 tags:
-    - Python
     - DL
 ---
 
